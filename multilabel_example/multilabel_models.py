@@ -10,6 +10,7 @@ from cvxpylayers.torch.cvxpylayer import CvxpyLayer
 import cvxpy as cp
 
 from multilabel_example.qpth_plus.qpth.qp import QPFunction
+from multilabel_example.qpth_plus.qpth.qp import QPFunction_Plus
 
 
 
@@ -17,10 +18,7 @@ from multilabel_example.qpth_plus.qpth.qp import QPFunction
 def obj_grad_fn(x,c,eps):
     return -c + eps*(torch.log(x) + 1.0 )
 
-def fwd_solver(c, N, C, eps):
-    # c = c.clone().cpu().numpy()
-    # print(type(c), c.shape)
-    
+def fwd_solver(c, N, C, eps, primaldual=False):
     x = cp.Variable(N)
     constraints = [  0<=x, x<=1, cp.sum(x) == C  ]
     problem = cp.Problem(cp.Maximize(c @ x + eps*cp.sum(cp.entr(x))), constraints)
@@ -28,7 +26,9 @@ def fwd_solver(c, N, C, eps):
     solution = problem.solve(solver=cp.ECOS)
     primal   = x.value
     dual = np.concatenate( tuple([np.array([constr.dual_value]).flatten() for constr in constraints]) )
-    return torch.Tensor(primal), torch.Tensor(dual)
+    
+    if primaldual: return torch.Tensor(primal), torch.Tensor(dual)
+    return torch.Tensor(primal)
 
 # def get_projection_layer(A,b,G,h):
 #     N = A.shape[1] # number of variables
@@ -41,18 +41,56 @@ def fwd_solver(c, N, C, eps):
 #     cvxlayer_post = lambda z: cvxlayer(z)[0]
 #     return cvxlayer_post
 
+
 def get_projection_layer(A,b,G,h):
     N = A.shape[1] # number of variables  
     Q = torch.eye(N)
     return lambda x: QPFunction(verbose=-1,eps=1e-10,maxIter=1000)(2*Q.double(),-2*x.double(),G.double(),h.double(),A.double(),b.double())   
 
+def get_sqp_layer(g, e, grad_g, grad_e, grad_f, hess_L):
+    
+    def sqp_layer(x,c,lam):
+        G = torch.stack( [grad_g(x_i).double() for x_i in x] )
+        h = torch.stack( [-g(x_i).double() for x_i in x] )
+        if e != None:
+            A = torch.stack( [grad_e(x_i).double() for x_i in x] )
+            b = torch.stack( [-e(x_i).double() for x_i in x] )
+        else:
+            A = torch.Tensor([])
+            b = torch.Tensor([])
+
+        Q = torch.stack( [hess_L(x[i],lam[i],c[i] ).double()    for i in range(len(x))] )
+        p = torch.stack( [grad_f(x_i,c[i]).double() for i,x_i in enumerate(x)] )
+
+        #The Hessian is H=2Q, the SQP minimizes (1/2)xT H x, Amos puts in (1/2) automatically
+        primaldual = QPFunction_Plus(verbose=-1,eps=1e-14,maxIter=1000)(Q,p,G,h,A,b)
+        return primaldual
+    
+    return sqp_layer
+
+
 # All data inputs are expected to be torch Tensors
-def PGD(x0,c,eps,projection,obj_grad,alpha=0.01,n_iter=1):
+def PGD(x0,c,projection,obj_grad,alpha=0.01,n_iter=1):
     xi = x0
     for i in range(n_iter):
         grads = obj_grad(xi,c)
         xi = projection(xi - alpha*grads)
     return xi
+
+
+def SQP(x0,fwd,c,projection,N,M_in,M_eq,alpha=0.01,n_iter=1):
+    primaldual = fwd(c.clone().detach(), dual=True)
+    xi = x0
+    lam = primaldual[:,N:N+M_in]
+    for i in range(n_iter):
+        primaldual = projection(xi,c,lam)
+        d          = primaldual[ :,:N ]
+        lam_d      = primaldual[ :, N:N+M_in ]
+        nu_d       = primaldual[ :,   N+M_in:N+M_in+M_eq ]
+        xi         = xi+alpha*d
+        lam        = lam + alpha*(lam_d - lam)
+    return xi
+
 """"""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -61,7 +99,7 @@ class EntropyKnapsackPGD():
     def __init__(self, N, C, stepsize = 0.001, n_iter=1000):
         super().__init__()
 
-        alpha = stepsize
+        self.alpha = stepsize
         eps = 1.0
         
         G = torch.cat(  (-torch.eye(N), torch.eye(N)),0  )
@@ -74,12 +112,11 @@ class EntropyKnapsackPGD():
         self.obj_grad_batch = torch.func.vmap(lambda x,c: obj_grad_fn(x,c,eps), in_dims=(0,None))
         
         self.projection = get_projection_layer(A,b,G,h)
-        self.projection_batch = lambda x: torch.stack([self.projection(x_i) for _, x_i in enumerate(x)])
         
-        self.fwd_solver = lambda c: fwd_solver(c, N, C, eps)[0]
+        self.fwd_solver = lambda c: fwd_solver(c, N, C, eps)
         self.fwd_solver_batch = lambda c: torch.stack([self.fwd_solver(c_i) for _, c_i in enumerate(c)])
         
-        self.update_step  = lambda c,x: PGD(x,c,eps,self.projection,self.obj_grad,alpha,n_iter=1).float()
+        self.update_step  = lambda c,x: PGD(x,c,self.projection,self.obj_grad,self.alpha,n_iter=1).float()
         self.lmlLayer = FoldOptLayer(self.fwd_solver_batch, self.update_step, n_iter=n_iter, backprop_rule='FPI')
 
     def solve(self,c):
@@ -89,56 +126,44 @@ class EntropyKnapsackPGD():
 
 
 
-# class EntropyKnapsackSQP():
-#     def __init__(self, N, C, stepsize=1.0, n_iter=1):
-#         super().__init__()
+class EntropyKnapsackSQP():
+    def __init__(self, N, C, stepsize=1.0, n_iter=1):
+        super().__init__()
 
-#         self.alpha = stepsize
-#         self.max_iter = n_iter
-#         eps = 1.0
-#         entro_knapsack_pd = cvxpy_models.EntropyNormKnapsackCVX(N,C,eps)
-#         #p,d = entro_knapsack_pd.solve(coeffs)
-#         entro_knapsack_pd_cat = lambda coeffs: torch.cat( entro_knapsack_pd.solve(coeffs.detach()) )
-#         entro_knapsack_pd_batch = unrolled_ops.BatchModeWrapper(entro_knapsack_pd_cat)
-#         self.entro_knapsack_pd_blank = unrolled_ops.BlankFunctionWrapper(N,entro_knapsack_pd_batch.apply)
-#         self.N = N
-#         self.M_in = 2*N
-#         self.M_eq = 1
-#         self.grad_f_ent   = lambda x,c: -c + eps*(torch.log(x) + 1.0)
-#         self.hess_f_ent   = lambda x,l,c:    eps*torch.diag( 1/x )
-#         self.grad_f = self.grad_f_ent
-#         self.hess_L = self.hess_f_ent
-#         self.g, self.e, self.grad_g, self.grad_e = diff_opt_tools.get_constraint_fns_knapsack(C)
+        self.alpha = stepsize
+        eps = 1.0
+        
+        self.N = N
+        self.M_in = 2*N
+        self.M_eq = 1
+        
+        grad_f   = lambda x,c: -c + eps*(torch.log(x) + 1.0)
+        hess_f   = lambda x,l,c:    eps*torch.diag( 1/x )
+        grad_g   = lambda x: torch.cat( (-torch.eye(len(x)), torch.eye(len(x))),0 )
+        grad_e   = lambda x: torch.ones(len(x)).unsqueeze(0)
+        g        = lambda x: torch.cat( (-x,x-1) )
+        e        = lambda x: (torch.sum(x) - C).unsqueeze(0)
+        
 
-#     def solve(self,c):
-#         x_blank = self.entro_knapsack_pd_blank(c.double())
-#         primal = x_blank[:,:self.N]
-#         dual   = x_blank[:,self.N:self.N+self.M_in]  # There are 2N inequalities
-#         return unrolled_ops.DiffSQP(c.double(), self.N, self.M_in, self.M_eq, self.g, self.e, self.grad_g, self.grad_e, self.grad_f, self.hess_L, self.alpha, self.max_iter, primal, dual ).float()
+        self.obj_grad = lambda x,c: obj_grad_fn(x,c,eps)
+        self.obj_grad_batch = torch.func.vmap(lambda x,c: obj_grad_fn(x,c,eps), in_dims=(0,None))
+        
+        self.projection = get_sqp_layer(g,e,grad_g,grad_e,grad_f,hess_f)
+        
+        self.fwd_solver = lambda c,dual: fwd_solver(c,N,C,eps,primaldual=dual)
+        
+        def fwd_solver_batch(c, dual=False):
+            if dual:
+                primaldual = [self.fwd_solver(c_i,dual) for _, c_i in enumerate(c)]
+                primal, dual = zip(*primaldual)
+                return torch.cat([torch.stack(primal), torch.stack(dual)],dim=1)
+            return torch.stack([self.fwd_solver(c_i,dual) for _, c_i in enumerate(c)])
+        
+        
+        self.update_step  = lambda c,x: SQP(x,fwd_solver_batch,c,self.projection,self.N,self.M_in,self.M_eq,self.alpha,n_iter=1).float()
+        self.lmlLayer = FoldOptLayer(fwd_solver_batch, self.update_step, n_iter=n_iter, backprop_rule='FPI')
 
-
-
-
-
-# class EntropyKnapsackFPGD():
-#     def __init__(self, N, C, stepsize = 0.001, n_iter=1000):
-#         super().__init__()
-
-#         alpha = stepsize
-#         self.n_iter = n_iter
-#         eps = 1.0
-#         entro_knapsack_pd = cvxpy_models.EntropyNormKnapsackCVX(N,C,eps)
-#         entro_knapsack_pd_primal = lambda coeffs: entro_knapsack_pd.solve(coeffs.detach())[0]
-#         entro_knapsack_pd_batch = unrolled_ops.BatchModeWrapper(entro_knapsack_pd_primal)
-#         self.entro_knapsack_blank = unrolled_ops.BlankFunctionWrapper(N,entro_knapsack_pd_batch.apply)
-#         self.fixedPtModule = fixedpt_ops.FixedPtDiff2()
-#         grad_f_ent   = lambda x,c: -c + eps*(torch.log(x) + 1.0 )
-#         A,b,G,h = diff_opt_tools.get_constraint_matrices_unwt_knapsack(N,C)
-#         self.diff_step_op  = lambda clamb,xlamb: unrolled_ops.DiffPGD(clamb, N, grad_f_ent, G, h, A, b, alpha, 1, xlamb).float()
-
-
-#     def solve(self,c):
-#         x_blank = self.entro_knapsack_blank(c.double())
-#         jacobian_x, x_star_step = fixedpt_ops.iterate_fwd(c, x_blank, self.diff_step_op)
-#         x_pgd  = self.fixedPtModule.apply(c, x_blank, x_star_step, jacobian_x, self.n_iter)
-#         return x_pgd
+    def solve(self,c):
+        return self.lmlLayer( c )
+        
+        

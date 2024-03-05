@@ -130,7 +130,7 @@ def JgP_LFPI(c, x_star_step, x_star_blank, g, n_steps = 1000, solver=None):
 
     N = x_star_blank.shape[1]
     B = x_star_blank.shape[0]
-
+        
     v = torch.autograd.grad(x_star_step, x_star_blank, g, retain_graph=True)[0].detach()
 
     for i in range(n_steps):

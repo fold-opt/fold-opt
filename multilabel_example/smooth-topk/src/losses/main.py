@@ -1,6 +1,6 @@
 import torch.nn as nn
 from losses.svm import SmoothSVM
-from losses.lml_loss import LMLLoss, PGDLoss, CVXLoss, SQPLoss, FPGDLoss
+from losses.lml_loss import LMLLoss, PGDLoss, CVXLoss, SQPLoss
 from losses.ml import MLLoss
 from losses.entr import EntrLoss
 
@@ -18,9 +18,6 @@ def get_loss(xp, args):
     elif args.loss == 'pgd': 
         print("Using PGD loss")
         loss = PGDLoss(n_classes=args.num_classes, k=args.topk, tau=args.tau, n_iter=args.num_steps)
-    elif args.loss == 'fpgd': 
-        print("Using FPGD loss")
-        loss = FPGDLoss(n_classes=args.num_classes, k=args.topk, tau=args.tau, n_iter=args.num_steps)
     elif args.loss == 'cvx':
         print("Using cvx loss")
         loss = CVXLoss(n_classes=args.num_classes, k=args.topk, tau=args.tau)
