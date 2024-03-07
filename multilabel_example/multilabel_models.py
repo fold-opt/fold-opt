@@ -27,19 +27,8 @@ def fwd_solver(c, N, C, eps, primaldual=False):
     primal   = x.value
     dual = np.concatenate( tuple([np.array([constr.dual_value]).flatten() for constr in constraints]) )
     
-    if primaldual: return torch.Tensor(primal), torch.Tensor(dual)
+    if primaldual: return torch.cat([torch.Tensor(primal), torch.Tensor(dual)])
     return torch.Tensor(primal)
-
-# def get_projection_layer(A,b,G,h):
-#     N = A.shape[1] # number of variables
-#     x = cp.Variable(N)
-#     z = cp.Parameter(N)
-#     constraints = [  A@x == b, G@x <= h   ]
-#     problem = cp.Problem(cp.Minimize( cp.norm(x-z)**2  ),  constraints)
-
-#     cvxlayer = CvxpyLayer(problem, parameters=[z], variables=[x])
-#     cvxlayer_post = lambda z: cvxlayer(z)[0]
-#     return cvxlayer_post
 
 
 def get_projection_layer(A,b,G,h):
@@ -78,18 +67,17 @@ def PGD(x0,c,projection,obj_grad,alpha=0.01,n_iter=1):
     return xi
 
 
-def SQP(x0,fwd,c,projection,N,M_in,M_eq,alpha=0.01,n_iter=1):
-    primaldual = fwd(c.clone().detach(), dual=True)
-    xi = x0
-    lam = primaldual[:,N:N+M_in]
+def SQP(x0,c,sqp,N,M_in,M_eq,alpha=0.01,n_iter=1):
+    xi = x0[:,:N]
+    lam = x0[:,N:N+M_in]
     for i in range(n_iter):
-        primaldual = projection(xi,c,lam)
+        primaldual = sqp(xi,c,lam)
         d          = primaldual[ :,:N ]
         lam_d      = primaldual[ :, N:N+M_in ]
         nu_d       = primaldual[ :,   N+M_in:N+M_in+M_eq ]
         xi         = xi+alpha*d
         lam        = lam + alpha*(lam_d - lam)
-    return xi
+    return torch.cat([xi,lam,nu_d], dim=1)
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 
@@ -148,20 +136,13 @@ class EntropyKnapsackSQP():
         self.obj_grad = lambda x,c: obj_grad_fn(x,c,eps)
         self.obj_grad_batch = torch.func.vmap(lambda x,c: obj_grad_fn(x,c,eps), in_dims=(0,None))
         
-        self.projection = get_sqp_layer(g,e,grad_g,grad_e,grad_f,hess_f)
+        self.sqp = get_sqp_layer(g,e,grad_g,grad_e,grad_f,hess_f)
         
-        self.fwd_solver = lambda c,dual: fwd_solver(c,N,C,eps,primaldual=dual)
+        self.fwd_solver = lambda c: fwd_solver(c,N,C,eps, primaldual=True)
+        self.fwd_solver_batch = lambda c: torch.stack([self.fwd_solver(c_i) for _, c_i in enumerate(c)])
         
-        def fwd_solver_batch(c, dual=False):
-            if dual:
-                primaldual = [self.fwd_solver(c_i,dual) for _, c_i in enumerate(c)]
-                primal, dual = zip(*primaldual)
-                return torch.cat([torch.stack(primal), torch.stack(dual)],dim=1)
-            return torch.stack([self.fwd_solver(c_i,dual) for _, c_i in enumerate(c)])
-        
-        
-        self.update_step  = lambda c,x: SQP(x,fwd_solver_batch,c,self.projection,self.N,self.M_in,self.M_eq,self.alpha,n_iter=1).float()
-        self.lmlLayer = FoldOptLayer(fwd_solver_batch, self.update_step, n_iter=n_iter, backprop_rule='FPI')
+        self.update_step  = lambda c,x: SQP(x,c,self.sqp,self.N,self.M_in,self.M_eq,self.alpha,n_iter=1).float()
+        self.lmlLayer = FoldOptLayer(self.fwd_solver_batch, self.update_step, n_iter=n_iter, backprop_rule='FPI')
 
     def solve(self,c):
         return self.lmlLayer( c )

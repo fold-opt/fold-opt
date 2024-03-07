@@ -1,4 +1,0 @@
-
-Epoch: [1] (Train)	Time 175.2s	Obj 4.23	Loss 3	Prec@1 0.95%	Prec@5 5.30%	
-
-Epoch: [1] (Val)	Time 47.6s	Obj ----	Loss ----	Prec@1 1.02%	Prec@5 5.42%	
