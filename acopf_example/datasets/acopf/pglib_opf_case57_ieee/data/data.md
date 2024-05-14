@@ -1,0 +1,1 @@
+Generate data points using `bids-opf.jl` for this folder.

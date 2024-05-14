@@ -26,10 +26,9 @@ class FoldOptLayer(torch.nn.Module):
             self.fixedPtModule = FixedPtDiffJacobianx()
 
 
-    def forward(self, c):
-
+    def forward(self, c, ground=None):
         x_star = self.solver_blank(c)
-        x_star_step = self.update_step(c, x_star )
+        x_star_step = self.update_step(c, x_star ) if ground is None else self.update_step(c, x_star, ground )
         x_return  = self.fixedPtModule.apply(c, x_star_step, x_star, self.n_iter)
         return x_return
 
@@ -130,7 +129,7 @@ def JgP_LFPI(c, x_star_step, x_star_blank, g, n_steps = 1000, solver=None):
 
     N = x_star_blank.shape[1]
     B = x_star_blank.shape[0]
-        
+
     v = torch.autograd.grad(x_star_step, x_star_blank, g, retain_graph=True)[0].detach()
 
     for i in range(n_steps):

@@ -1,0 +1,3513 @@
+{
+  "bus": {
+    "32": {
+      "zone": 1,
+      "bus_i": 32,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        32
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 32,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "29": {
+      "zone": 1,
+      "bus_i": 29,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        29
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 29,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "1": {
+      "zone": 1,
+      "bus_i": 1,
+      "bus_type": 3,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        1
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 1,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "54": {
+      "zone": 1,
+      "bus_i": 54,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        54
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 54,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "2": {
+      "zone": 1,
+      "bus_i": 2,
+      "bus_type": 2,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        2
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 2,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "41": {
+      "zone": 1,
+      "bus_i": 41,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        41
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 41,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "51": {
+      "zone": 1,
+      "bus_i": 51,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        51
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 51,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "53": {
+      "zone": 1,
+      "bus_i": 53,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        53
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 53,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "27": {
+      "zone": 1,
+      "bus_i": 27,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        27
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 27,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "42": {
+      "zone": 1,
+      "bus_i": 42,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        42
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 42,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "33": {
+      "zone": 1,
+      "bus_i": 33,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        33
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 33,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "28": {
+      "zone": 1,
+      "bus_i": 28,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        28
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 28,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "50": {
+      "zone": 1,
+      "bus_i": 50,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        50
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 50,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "52": {
+      "zone": 1,
+      "bus_i": 52,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        52
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 52,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "26": {
+      "zone": 1,
+      "bus_i": 26,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        26
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 26,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "10": {
+      "zone": 1,
+      "bus_i": 10,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        10
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 10,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "24": {
+      "zone": 1,
+      "bus_i": 24,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        24
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 24,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "25": {
+      "zone": 1,
+      "bus_i": 25,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        25
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 25,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "23": {
+      "zone": 1,
+      "bus_i": 23,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        23
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 23,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "49": {
+      "zone": 1,
+      "bus_i": 49,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        49
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 49,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "5": {
+      "zone": 1,
+      "bus_i": 5,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        5
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 5,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "31": {
+      "zone": 1,
+      "bus_i": 31,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        31
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 31,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "43": {
+      "zone": 1,
+      "bus_i": 43,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        43
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 43,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "39": {
+      "zone": 1,
+      "bus_i": 39,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        39
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 39,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "34": {
+      "zone": 1,
+      "bus_i": 34,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        34
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 34,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "44": {
+      "zone": 1,
+      "bus_i": 44,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        44
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 44,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "55": {
+      "zone": 1,
+      "bus_i": 55,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        55
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 55,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "17": {
+      "zone": 1,
+      "bus_i": 17,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        17
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 17,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "37": {
+      "zone": 1,
+      "bus_i": 37,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        37
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 37,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "47": {
+      "zone": 1,
+      "bus_i": 47,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        47
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 47,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "9": {
+      "zone": 1,
+      "bus_i": 9,
+      "bus_type": 2,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        9
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 9,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "12": {
+      "zone": 1,
+      "bus_i": 12,
+      "bus_type": 2,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        12
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 12,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "20": {
+      "zone": 1,
+      "bus_i": 20,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        20
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 20,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "6": {
+      "zone": 1,
+      "bus_i": 6,
+      "bus_type": 2,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        6
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 6,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "14": {
+      "zone": 1,
+      "bus_i": 14,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        14
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 14,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "7": {
+      "zone": 1,
+      "bus_i": 7,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        7
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 7,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "57": {
+      "zone": 1,
+      "bus_i": 57,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        57
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 57,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "8": {
+      "zone": 1,
+      "bus_i": 8,
+      "bus_type": 2,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        8
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 8,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "19": {
+      "zone": 1,
+      "bus_i": 19,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        19
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 19,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "4": {
+      "zone": 1,
+      "bus_i": 4,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        4
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 4,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "22": {
+      "zone": 1,
+      "bus_i": 22,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        22
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 22,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "11": {
+      "zone": 1,
+      "bus_i": 11,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        11
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 11,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "35": {
+      "zone": 1,
+      "bus_i": 35,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        35
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 35,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "13": {
+      "zone": 1,
+      "bus_i": 13,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        13
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 13,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "15": {
+      "zone": 1,
+      "bus_i": 15,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        15
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 15,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "16": {
+      "zone": 1,
+      "bus_i": 16,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        16
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 16,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "40": {
+      "zone": 1,
+      "bus_i": 40,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        40
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 40,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "21": {
+      "zone": 1,
+      "bus_i": 21,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        21
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 21,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "38": {
+      "zone": 1,
+      "bus_i": 38,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        38
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 38,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "46": {
+      "zone": 1,
+      "bus_i": 46,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        46
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 46,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "45": {
+      "zone": 1,
+      "bus_i": 45,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        45
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 45,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "56": {
+      "zone": 1,
+      "bus_i": 56,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        56
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 56,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "36": {
+      "zone": 1,
+      "bus_i": 36,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        36
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 36,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "48": {
+      "zone": 1,
+      "bus_i": 48,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        48
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 48,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "18": {
+      "zone": 1,
+      "bus_i": 18,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        18
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 18,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "30": {
+      "zone": 1,
+      "bus_i": 30,
+      "bus_type": 1,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        30
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 30,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    },
+    "3": {
+      "zone": 1,
+      "bus_i": 3,
+      "bus_type": 2,
+      "vmax": 1.06,
+      "source_id": [
+        "bus",
+        3
+      ],
+      "area": 1,
+      "vmin": 0.94,
+      "index": 3,
+      "va": 0.0,
+      "vm": 1.0,
+      "base_kv": 1.0
+    }
+  },
+  "source_type": "matpower",
+  "name": "pglib_opf_case57_ieee",
+  "dcline": {},
+  "source_version": "2",
+  "gen": {
+    "4": {
+      "pg": 0.0,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.085,
+      "gen_bus": 6,
+      "pmax": 0.0,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        4
+      ],
+      "index": 4,
+      "cost": [],
+      "qmax": 0.25,
+      "gen_status": 1,
+      "qmin": -0.08,
+      "pmin": 0.0,
+      "ncost": 0
+    },
+    "1": {
+      "pg": 1.225,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.0,
+      "gen_bus": 1,
+      "pmax": 2.45,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        1
+      ],
+      "index": 1,
+      "cost": [
+        1696.0624,
+        0.0
+      ],
+      "qmax": 1.23,
+      "gen_status": 1,
+      "qmin": -1.23,
+      "pmin": 0.0,
+      "ncost": 2
+    },
+    "5": {
+      "pg": 5.795,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.3,
+      "gen_bus": 8,
+      "pmax": 11.59,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        5
+      ],
+      "index": 5,
+      "cost": [
+        3044.1037,
+        0.0
+      ],
+      "qmax": 2.0,
+      "gen_status": 1,
+      "qmin": -1.4,
+      "pmin": 0.0,
+      "ncost": 2
+    },
+    "2": {
+      "pg": 0.0,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.165,
+      "gen_bus": 2,
+      "pmax": 0.0,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        2
+      ],
+      "index": 2,
+      "cost": [],
+      "qmax": 0.5,
+      "gen_status": 1,
+      "qmin": -0.17,
+      "pmin": 0.0,
+      "ncost": 0
+    },
+    "6": {
+      "pg": 0.0,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.03,
+      "gen_bus": 9,
+      "pmax": 0.0,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        6
+      ],
+      "index": 6,
+      "cost": [],
+      "qmax": 0.09,
+      "gen_status": 1,
+      "qmin": -0.03,
+      "pmin": 0.0,
+      "ncost": 0
+    },
+    "7": {
+      "pg": 2.595,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.025,
+      "gen_bus": 12,
+      "pmax": 5.19,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        7
+      ],
+      "index": 7,
+      "cost": [
+        3718.8979000000004,
+        0.0
+      ],
+      "qmax": 1.55,
+      "gen_status": 1,
+      "qmin": -1.5,
+      "pmin": 0.0,
+      "ncost": 2
+    },
+    "3": {
+      "pg": 0.3,
+      "model": 2,
+      "shutdown": 0.0,
+      "startup": 0.0,
+      "qg": 0.1,
+      "gen_bus": 3,
+      "pmax": 0.6,
+      "vg": 1.0,
+      "mbase": 100.0,
+      "source_id": [
+        "gen",
+        3
+      ],
+      "index": 3,
+      "cost": [
+        3407.5557000000003,
+        0.0
+      ],
+      "qmax": 0.3,
+      "gen_status": 1,
+      "qmin": -0.1,
+      "pmin": 0.0,
+      "ncost": 2
+    }
+  },
+  "branch": {
+    "32": {
+      "br_r": 0.0736,
+      "rate_a": 2.13,
+      "shift": 0.0,
+      "rate_b": 2.13,
+      "br_x": 0.117,
+      "rate_c": 2.13,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        32
+      ],
+      "b_fr": 0.0,
+      "f_bus": 21,
+      "br_status": 1,
+      "t_bus": 22,
+      "b_to": 0.0,
+      "index": 32,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "29": {
+      "br_r": 0.461,
+      "rate_a": 0.36,
+      "shift": 0.0,
+      "rate_b": 0.36,
+      "br_x": 0.685,
+      "rate_c": 0.36,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        29
+      ],
+      "b_fr": 0.0,
+      "f_bus": 18,
+      "br_status": 1,
+      "t_bus": 19,
+      "b_to": 0.0,
+      "index": 29,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "1": {
+      "br_r": 0.0083,
+      "rate_a": 10.05,
+      "shift": 0.0,
+      "rate_b": 10.05,
+      "br_x": 0.028,
+      "rate_c": 10.05,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        1
+      ],
+      "b_fr": 0.0645,
+      "f_bus": 1,
+      "br_status": 1,
+      "t_bus": 2,
+      "b_to": 0.0645,
+      "index": 1,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "54": {
+      "br_r": 0.0,
+      "rate_a": 0.4,
+      "shift": 0.0,
+      "rate_b": 0.4,
+      "br_x": 0.749,
+      "rate_c": 0.4,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        54
+      ],
+      "b_fr": 0.0,
+      "f_bus": 11,
+      "br_status": 1,
+      "t_bus": 41,
+      "b_to": 0.0,
+      "index": 54,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.955
+    },
+    "78": {
+      "br_r": 0.115,
+      "rate_a": 1.39,
+      "shift": 0.0,
+      "rate_b": 1.39,
+      "br_x": 0.177,
+      "rate_c": 1.39,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        78
+      ],
+      "b_fr": 0.0015,
+      "f_bus": 38,
+      "br_status": 1,
+      "t_bus": 49,
+      "b_to": 0.0015,
+      "index": 78,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "2": {
+      "br_r": 0.0298,
+      "rate_a": 3.26,
+      "shift": 0.0,
+      "rate_b": 3.26,
+      "br_x": 0.085,
+      "rate_c": 3.26,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        2
+      ],
+      "b_fr": 0.0409,
+      "f_bus": 2,
+      "br_status": 1,
+      "t_bus": 3,
+      "b_to": 0.0409,
+      "index": 2,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "74": {
+      "br_r": 0.553,
+      "rate_a": 0.38,
+      "shift": 0.0,
+      "rate_b": 0.38,
+      "br_x": 0.549,
+      "rate_c": 0.38,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        74
+      ],
+      "b_fr": 0.0,
+      "f_bus": 56,
+      "br_status": 1,
+      "t_bus": 41,
+      "b_to": 0.0,
+      "index": 74,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "41": {
+      "br_r": 0.0,
+      "rate_a": 4.53,
+      "shift": 0.0,
+      "rate_b": 4.53,
+      "br_x": 0.0648,
+      "rate_c": 4.53,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        41
+      ],
+      "b_fr": 0.0,
+      "f_bus": 7,
+      "br_status": 1,
+      "t_bus": 29,
+      "b_to": 0.0,
+      "index": 41,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.967
+    },
+    "65": {
+      "br_r": 0.0,
+      "rate_a": 4.12,
+      "shift": 0.0,
+      "rate_b": 4.12,
+      "br_x": 0.0712,
+      "rate_c": 4.12,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        65
+      ],
+      "b_fr": 0.0,
+      "f_bus": 10,
+      "br_status": 1,
+      "t_bus": 51,
+      "b_to": 0.0,
+      "index": 65,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.93
+    },
+    "51": {
+      "br_r": 0.0239,
+      "rate_a": 6.55,
+      "shift": 0.0,
+      "rate_b": 6.55,
+      "br_x": 0.0379,
+      "rate_c": 6.55,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        51
+      ],
+      "b_fr": 0.0,
+      "f_bus": 37,
+      "br_status": 1,
+      "t_bus": 39,
+      "b_to": 0.0,
+      "index": 51,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "53": {
+      "br_r": 0.0192,
+      "rate_a": 8.34,
+      "shift": 0.0,
+      "rate_b": 8.34,
+      "br_x": 0.0295,
+      "rate_c": 8.34,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        53
+      ],
+      "b_fr": 0.0,
+      "f_bus": 22,
+      "br_status": 1,
+      "t_bus": 38,
+      "b_to": 0.0,
+      "index": 53,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "27": {
+      "br_r": 0.0397,
+      "rate_a": 1.6,
+      "shift": 0.0,
+      "rate_b": 1.6,
+      "br_x": 0.179,
+      "rate_c": 1.6,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        27
+      ],
+      "b_fr": 0.0238,
+      "f_bus": 12,
+      "br_status": 1,
+      "t_bus": 17,
+      "b_to": 0.0238,
+      "index": 27,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "75": {
+      "br_r": 0.2125,
+      "rate_a": 0.72,
+      "shift": 0.0,
+      "rate_b": 0.72,
+      "br_x": 0.354,
+      "rate_c": 0.72,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        75
+      ],
+      "b_fr": 0.0,
+      "f_bus": 56,
+      "br_status": 1,
+      "t_bus": 42,
+      "b_to": 0.0,
+      "index": 75,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "42": {
+      "br_r": 0.135,
+      "rate_a": 1.21,
+      "shift": 0.0,
+      "rate_b": 1.21,
+      "br_x": 0.202,
+      "rate_c": 1.21,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        42
+      ],
+      "b_fr": 0.0,
+      "f_bus": 25,
+      "br_status": 1,
+      "t_bus": 30,
+      "b_to": 0.0,
+      "index": 42,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "33": {
+      "br_r": 0.0099,
+      "rate_a": 16.17,
+      "shift": 0.0,
+      "rate_b": 16.17,
+      "br_x": 0.0152,
+      "rate_c": 16.17,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        33
+      ],
+      "b_fr": 0.0,
+      "f_bus": 22,
+      "br_status": 1,
+      "t_bus": 23,
+      "b_to": 0.0,
+      "index": 33,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "28": {
+      "br_r": 0.0171,
+      "rate_a": 5.12,
+      "shift": 0.0,
+      "rate_b": 5.12,
+      "br_x": 0.0547,
+      "rate_c": 5.12,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        28
+      ],
+      "b_fr": 0.0074,
+      "f_bus": 14,
+      "br_status": 1,
+      "t_bus": 15,
+      "b_to": 0.0074,
+      "index": 28,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "50": {
+      "br_r": 0.0651,
+      "rate_a": 2.45,
+      "shift": 0.0,
+      "rate_b": 2.45,
+      "br_x": 0.1009,
+      "rate_c": 2.45,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        50
+      ],
+      "b_fr": 0.001,
+      "f_bus": 37,
+      "br_status": 1,
+      "t_bus": 38,
+      "b_to": 0.001,
+      "index": 50,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "52": {
+      "br_r": 0.03,
+      "rate_a": 5.3,
+      "shift": 0.0,
+      "rate_b": 5.3,
+      "br_x": 0.0466,
+      "rate_c": 5.3,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        52
+      ],
+      "b_fr": 0.0,
+      "f_bus": 36,
+      "br_status": 1,
+      "t_bus": 40,
+      "b_to": 0.0,
+      "index": 52,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "63": {
+      "br_r": 0.0801,
+      "rate_a": 1.95,
+      "shift": 0.0,
+      "rate_b": 1.95,
+      "br_x": 0.128,
+      "rate_c": 1.95,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        63
+      ],
+      "b_fr": 0.0,
+      "f_bus": 49,
+      "br_status": 1,
+      "t_bus": 50,
+      "b_to": 0.0,
+      "index": 63,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "26": {
+      "br_r": 0.018,
+      "rate_a": 3.53,
+      "shift": 0.0,
+      "rate_b": 3.53,
+      "br_x": 0.0813,
+      "rate_c": 3.53,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        26
+      ],
+      "b_fr": 0.0108,
+      "f_bus": 12,
+      "br_status": 1,
+      "t_bus": 16,
+      "b_to": 0.0108,
+      "index": 26,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "10": {
+      "br_r": 0.0258,
+      "rate_a": 3.31,
+      "shift": 0.0,
+      "rate_b": 3.31,
+      "br_x": 0.0848,
+      "rate_c": 3.31,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        10
+      ],
+      "b_fr": 0.0109,
+      "f_bus": 9,
+      "br_status": 1,
+      "t_bus": 11,
+      "b_to": 0.0109,
+      "index": 10,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "77": {
+      "br_r": 0.174,
+      "rate_a": 0.94,
+      "shift": 0.0,
+      "rate_b": 0.94,
+      "br_x": 0.26,
+      "rate_c": 0.94,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        77
+      ],
+      "b_fr": 0.0,
+      "f_bus": 57,
+      "br_status": 1,
+      "t_bus": 56,
+      "b_to": 0.0,
+      "index": 77,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "24": {
+      "br_r": 0.0223,
+      "rate_a": 3.84,
+      "shift": 0.0,
+      "rate_b": 3.84,
+      "br_x": 0.0732,
+      "rate_c": 3.84,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        24
+      ],
+      "b_fr": 0.0094,
+      "f_bus": 11,
+      "br_status": 1,
+      "t_bus": 13,
+      "b_to": 0.0094,
+      "index": 24,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "58": {
+      "br_r": 0.0,
+      "rate_a": 2.82,
+      "shift": 0.0,
+      "rate_b": 2.82,
+      "br_x": 0.1042,
+      "rate_c": 2.82,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        58
+      ],
+      "b_fr": 0.0,
+      "f_bus": 15,
+      "br_status": 1,
+      "t_bus": 45,
+      "b_to": 0.0,
+      "index": 58,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.955
+    },
+    "25": {
+      "br_r": 0.0178,
+      "rate_a": 4.84,
+      "shift": 0.0,
+      "rate_b": 4.84,
+      "br_x": 0.058,
+      "rate_c": 4.84,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        25
+      ],
+      "b_fr": 0.0302,
+      "f_bus": 12,
+      "br_status": 1,
+      "t_bus": 13,
+      "b_to": 0.0302,
+      "index": 25,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "23": {
+      "br_r": 0.0277,
+      "rate_a": 2.28,
+      "shift": 0.0,
+      "rate_b": 2.28,
+      "br_x": 0.1262,
+      "rate_c": 2.28,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        23
+      ],
+      "b_fr": 0.0164,
+      "f_bus": 10,
+      "br_status": 1,
+      "t_bus": 12,
+      "b_to": 0.0164,
+      "index": 23,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "49": {
+      "br_r": 0.029,
+      "rate_a": 6.29,
+      "shift": 0.0,
+      "rate_b": 6.29,
+      "br_x": 0.0366,
+      "rate_c": 6.29,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        49
+      ],
+      "b_fr": 0.0,
+      "f_bus": 36,
+      "br_status": 1,
+      "t_bus": 37,
+      "b_to": 0.0,
+      "index": 49,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "59": {
+      "br_r": 0.0,
+      "rate_a": 4.0,
+      "shift": 0.0,
+      "rate_b": 4.0,
+      "br_x": 0.0735,
+      "rate_c": 4.0,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        59
+      ],
+      "b_fr": 0.0,
+      "f_bus": 14,
+      "br_status": 1,
+      "t_bus": 46,
+      "b_to": 0.0,
+      "index": 59,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.9
+    },
+    "5": {
+      "br_r": 0.043,
+      "rate_a": 1.91,
+      "shift": 0.0,
+      "rate_b": 1.91,
+      "br_x": 0.148,
+      "rate_c": 1.91,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        5
+      ],
+      "b_fr": 0.0174,
+      "f_bus": 4,
+      "br_status": 1,
+      "t_bus": 6,
+      "b_to": 0.0174,
+      "index": 5,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "31": {
+      "br_r": 0.0,
+      "rate_a": 0.38,
+      "shift": 0.0,
+      "rate_b": 0.38,
+      "br_x": 0.7767,
+      "rate_c": 0.38,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        31
+      ],
+      "b_fr": 0.0,
+      "f_bus": 21,
+      "br_status": 1,
+      "t_bus": 20,
+      "b_to": 0.0,
+      "index": 31,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 1.043
+    },
+    "62": {
+      "br_r": 0.0834,
+      "rate_a": 1.91,
+      "shift": 0.0,
+      "rate_b": 1.91,
+      "br_x": 0.129,
+      "rate_c": 1.91,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        62
+      ],
+      "b_fr": 0.0024,
+      "f_bus": 48,
+      "br_status": 1,
+      "t_bus": 49,
+      "b_to": 0.0024,
+      "index": 62,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "43": {
+      "br_r": 0.326,
+      "rate_a": 0.5,
+      "shift": 0.0,
+      "rate_b": 0.5,
+      "br_x": 0.497,
+      "rate_c": 0.5,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        43
+      ],
+      "b_fr": 0.0,
+      "f_bus": 30,
+      "br_status": 1,
+      "t_bus": 31,
+      "b_to": 0.0,
+      "index": 43,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "39": {
+      "br_r": 0.0618,
+      "rate_a": 2.59,
+      "shift": 0.0,
+      "rate_b": 2.59,
+      "br_x": 0.0954,
+      "rate_c": 2.59,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        39
+      ],
+      "b_fr": 0.0,
+      "f_bus": 27,
+      "br_status": 1,
+      "t_bus": 28,
+      "b_to": 0.0,
+      "index": 39,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "34": {
+      "br_r": 0.166,
+      "rate_a": 0.97,
+      "shift": 0.0,
+      "rate_b": 0.97,
+      "br_x": 0.256,
+      "rate_c": 0.97,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        34
+      ],
+      "b_fr": 0.0042,
+      "f_bus": 23,
+      "br_status": 1,
+      "t_bus": 24,
+      "b_to": 0.0042,
+      "index": 34,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "44": {
+      "br_r": 0.507,
+      "rate_a": 0.33,
+      "shift": 0.0,
+      "rate_b": 0.33,
+      "br_x": 0.755,
+      "rate_c": 0.33,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        44
+      ],
+      "b_fr": 0.0,
+      "f_bus": 31,
+      "br_status": 1,
+      "t_bus": 32,
+      "b_to": 0.0,
+      "index": 44,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "55": {
+      "br_r": 0.207,
+      "rate_a": 0.72,
+      "shift": 0.0,
+      "rate_b": 0.72,
+      "br_x": 0.352,
+      "rate_c": 0.72,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        55
+      ],
+      "b_fr": 0.0,
+      "f_bus": 41,
+      "br_status": 1,
+      "t_bus": 42,
+      "b_to": 0.0,
+      "index": 55,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "17": {
+      "br_r": 0.0238,
+      "rate_a": 2.66,
+      "shift": 0.0,
+      "rate_b": 2.66,
+      "br_x": 0.108,
+      "rate_c": 2.66,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        17
+      ],
+      "b_fr": 0.0143,
+      "f_bus": 1,
+      "br_status": 1,
+      "t_bus": 17,
+      "b_to": 0.0143,
+      "index": 17,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "71": {
+      "br_r": 0.0,
+      "rate_a": 1.92,
+      "shift": 0.0,
+      "rate_b": 1.92,
+      "br_x": 0.153,
+      "rate_c": 1.92,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        71
+      ],
+      "b_fr": 0.0,
+      "f_bus": 11,
+      "br_status": 1,
+      "t_bus": 43,
+      "b_to": 0.0,
+      "index": 71,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.958
+    },
+    "37": {
+      "br_r": 0.0,
+      "rate_a": 6.21,
+      "shift": 0.0,
+      "rate_b": 6.21,
+      "br_x": 0.0473,
+      "rate_c": 6.21,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        37
+      ],
+      "b_fr": 0.0,
+      "f_bus": 24,
+      "br_status": 1,
+      "t_bus": 26,
+      "b_to": 0.0,
+      "index": 37,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 1.043
+    },
+    "47": {
+      "br_r": 0.052,
+      "rate_a": 3.13,
+      "shift": 0.0,
+      "rate_b": 3.13,
+      "br_x": 0.078,
+      "rate_c": 3.13,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        47
+      ],
+      "b_fr": 0.0016,
+      "f_bus": 34,
+      "br_status": 1,
+      "t_bus": 35,
+      "b_to": 0.0016,
+      "index": 47,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "9": {
+      "br_r": 0.0369,
+      "rate_a": 1.71,
+      "shift": 0.0,
+      "rate_b": 1.71,
+      "br_x": 0.1679,
+      "rate_c": 1.71,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        9
+      ],
+      "b_fr": 0.022,
+      "f_bus": 9,
+      "br_status": 1,
+      "t_bus": 10,
+      "b_to": 0.022,
+      "index": 9,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "73": {
+      "br_r": 0.0,
+      "rate_a": 0.25,
+      "shift": 0.0,
+      "rate_b": 0.25,
+      "br_x": 1.195,
+      "rate_c": 0.25,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        73
+      ],
+      "b_fr": 0.0,
+      "f_bus": 40,
+      "br_status": 1,
+      "t_bus": 56,
+      "b_to": 0.0,
+      "index": 73,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.958
+    },
+    "12": {
+      "br_r": 0.0481,
+      "rate_a": 1.78,
+      "shift": 0.0,
+      "rate_b": 1.78,
+      "br_x": 0.158,
+      "rate_c": 1.78,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        12
+      ],
+      "b_fr": 0.0203,
+      "f_bus": 9,
+      "br_status": 1,
+      "t_bus": 13,
+      "b_to": 0.0203,
+      "index": 12,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "79": {
+      "br_r": 0.0312,
+      "rate_a": 5.11,
+      "shift": 0.0,
+      "rate_b": 5.11,
+      "br_x": 0.0482,
+      "rate_c": 5.11,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        79
+      ],
+      "b_fr": 0.0,
+      "f_bus": 38,
+      "br_status": 1,
+      "t_bus": 48,
+      "b_to": 0.0,
+      "index": 79,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "20": {
+      "br_r": 0.0,
+      "rate_a": 0.69,
+      "shift": 0.0,
+      "rate_b": 0.69,
+      "br_x": 0.43,
+      "rate_c": 0.69,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        20
+      ],
+      "b_fr": 0.0,
+      "f_bus": 4,
+      "br_status": 1,
+      "t_bus": 18,
+      "b_to": 0.0,
+      "index": 20,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.978
+    },
+    "6": {
+      "br_r": 0.02,
+      "rate_a": 2.83,
+      "shift": 0.0,
+      "rate_b": 2.83,
+      "br_x": 0.102,
+      "rate_c": 2.83,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        6
+      ],
+      "b_fr": 0.0138,
+      "f_bus": 6,
+      "br_status": 1,
+      "t_bus": 7,
+      "b_to": 0.0138,
+      "index": 6,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "80": {
+      "br_r": 0.0,
+      "rate_a": 2.44,
+      "shift": 0.0,
+      "rate_b": 2.44,
+      "br_x": 0.1205,
+      "rate_c": 2.44,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        80
+      ],
+      "b_fr": 0.0,
+      "f_bus": 9,
+      "br_status": 1,
+      "t_bus": 55,
+      "b_to": 0.0,
+      "index": 80,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.94
+    },
+    "70": {
+      "br_r": 0.1732,
+      "rate_a": 1.03,
+      "shift": 0.0,
+      "rate_b": 1.03,
+      "br_x": 0.2265,
+      "rate_c": 1.03,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        70
+      ],
+      "b_fr": 0.0,
+      "f_bus": 54,
+      "br_status": 1,
+      "t_bus": 55,
+      "b_to": 0.0,
+      "index": 70,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "14": {
+      "br_r": 0.0269,
+      "rate_a": 3.23,
+      "shift": 0.0,
+      "rate_b": 3.23,
+      "br_x": 0.0869,
+      "rate_c": 3.23,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        14
+      ],
+      "b_fr": 0.0115,
+      "f_bus": 13,
+      "br_status": 1,
+      "t_bus": 15,
+      "b_to": 0.0115,
+      "index": 14,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "7": {
+      "br_r": 0.0339,
+      "rate_a": 1.67,
+      "shift": 0.0,
+      "rate_b": 1.67,
+      "br_x": 0.173,
+      "rate_c": 1.67,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        7
+      ],
+      "b_fr": 0.0235,
+      "f_bus": 6,
+      "br_status": 1,
+      "t_bus": 8,
+      "b_to": 0.0235,
+      "index": 7,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "57": {
+      "br_r": 0.0289,
+      "rate_a": 4.5,
+      "shift": 0.0,
+      "rate_b": 4.5,
+      "br_x": 0.0585,
+      "rate_c": 4.5,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        57
+      ],
+      "b_fr": 0.001,
+      "f_bus": 38,
+      "br_status": 1,
+      "t_bus": 44,
+      "b_to": 0.001,
+      "index": 57,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "8": {
+      "br_r": 0.0099,
+      "rate_a": 5.7,
+      "shift": 0.0,
+      "rate_b": 5.7,
+      "br_x": 0.0505,
+      "rate_c": 5.7,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        8
+      ],
+      "b_fr": 0.0274,
+      "f_bus": 8,
+      "br_status": 1,
+      "t_bus": 9,
+      "b_to": 0.0274,
+      "index": 8,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "64": {
+      "br_r": 0.1386,
+      "rate_a": 1.13,
+      "shift": 0.0,
+      "rate_b": 1.13,
+      "br_x": 0.22,
+      "rate_c": 1.13,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        64
+      ],
+      "b_fr": 0.0,
+      "f_bus": 50,
+      "br_status": 1,
+      "t_bus": 51,
+      "b_to": 0.0,
+      "index": 64,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "19": {
+      "br_r": 0.0,
+      "rate_a": 0.53,
+      "shift": 0.0,
+      "rate_b": 0.53,
+      "br_x": 0.555,
+      "rate_c": 0.53,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        19
+      ],
+      "b_fr": 0.0,
+      "f_bus": 4,
+      "br_status": 1,
+      "t_bus": 18,
+      "b_to": 0.0,
+      "index": 19,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.97
+    },
+    "69": {
+      "br_r": 0.1878,
+      "rate_a": 0.99,
+      "shift": 0.0,
+      "rate_b": 0.99,
+      "br_x": 0.232,
+      "rate_c": 0.99,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        69
+      ],
+      "b_fr": 0.0,
+      "f_bus": 53,
+      "br_status": 1,
+      "t_bus": 54,
+      "b_to": 0.0,
+      "index": 69,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "60": {
+      "br_r": 0.023,
+      "rate_a": 4.09,
+      "shift": 0.0,
+      "rate_b": 4.09,
+      "br_x": 0.068,
+      "rate_c": 4.09,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        60
+      ],
+      "b_fr": 0.0016,
+      "f_bus": 46,
+      "br_status": 1,
+      "t_bus": 47,
+      "b_to": 0.0016,
+      "index": 60,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "4": {
+      "br_r": 0.0625,
+      "rate_a": 2.01,
+      "shift": 0.0,
+      "rate_b": 2.01,
+      "br_x": 0.132,
+      "rate_c": 2.01,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        4
+      ],
+      "b_fr": 0.0129,
+      "f_bus": 4,
+      "br_status": 1,
+      "t_bus": 5,
+      "b_to": 0.0129,
+      "index": 4,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "22": {
+      "br_r": 0.0139,
+      "rate_a": 4.05,
+      "shift": 0.0,
+      "rate_b": 4.05,
+      "br_x": 0.0712,
+      "rate_c": 4.05,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        22
+      ],
+      "b_fr": 0.0097,
+      "f_bus": 7,
+      "br_status": 1,
+      "t_bus": 8,
+      "b_to": 0.0097,
+      "index": 22,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "11": {
+      "br_r": 0.0648,
+      "rate_a": 0.98,
+      "shift": 0.0,
+      "rate_b": 0.98,
+      "br_x": 0.295,
+      "rate_c": 0.98,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        11
+      ],
+      "b_fr": 0.0386,
+      "f_bus": 9,
+      "br_status": 1,
+      "t_bus": 12,
+      "b_to": 0.0386,
+      "index": 11,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "35": {
+      "br_r": 0.0,
+      "rate_a": 0.25,
+      "shift": 0.0,
+      "rate_b": 0.25,
+      "br_x": 1.182,
+      "rate_c": 0.25,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        35
+      ],
+      "b_fr": 0.0,
+      "f_bus": 24,
+      "br_status": 1,
+      "t_bus": 25,
+      "b_to": 0.0,
+      "index": 35,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 1.0
+    },
+    "13": {
+      "br_r": 0.0132,
+      "rate_a": 6.47,
+      "shift": 0.0,
+      "rate_b": 6.47,
+      "br_x": 0.0434,
+      "rate_c": 6.47,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        13
+      ],
+      "b_fr": 0.0055,
+      "f_bus": 13,
+      "br_status": 1,
+      "t_bus": 14,
+      "b_to": 0.0055,
+      "index": 13,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "15": {
+      "br_r": 0.0178,
+      "rate_a": 3.17,
+      "shift": 0.0,
+      "rate_b": 3.17,
+      "br_x": 0.091,
+      "rate_c": 3.17,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        15
+      ],
+      "b_fr": 0.0494,
+      "f_bus": 1,
+      "br_status": 1,
+      "t_bus": 15,
+      "b_to": 0.0494,
+      "index": 15,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "61": {
+      "br_r": 0.0182,
+      "rate_a": 9.93,
+      "shift": 0.0,
+      "rate_b": 9.93,
+      "br_x": 0.0233,
+      "rate_c": 9.93,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        61
+      ],
+      "b_fr": 0.0,
+      "f_bus": 47,
+      "br_status": 1,
+      "t_bus": 48,
+      "b_to": 0.0,
+      "index": 61,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "67": {
+      "br_r": 0.1442,
+      "rate_a": 1.25,
+      "shift": 0.0,
+      "rate_b": 1.25,
+      "br_x": 0.187,
+      "rate_c": 1.25,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        67
+      ],
+      "b_fr": 0.0,
+      "f_bus": 29,
+      "br_status": 1,
+      "t_bus": 52,
+      "b_to": 0.0,
+      "index": 67,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "16": {
+      "br_r": 0.0454,
+      "rate_a": 1.4,
+      "shift": 0.0,
+      "rate_b": 1.4,
+      "br_x": 0.206,
+      "rate_c": 1.4,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        16
+      ],
+      "b_fr": 0.0273,
+      "f_bus": 1,
+      "br_status": 1,
+      "t_bus": 16,
+      "b_to": 0.0273,
+      "index": 16,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "40": {
+      "br_r": 0.0418,
+      "rate_a": 4.08,
+      "shift": 0.0,
+      "rate_b": 4.08,
+      "br_x": 0.0587,
+      "rate_c": 4.08,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        40
+      ],
+      "b_fr": 0.0,
+      "f_bus": 28,
+      "br_status": 1,
+      "t_bus": 29,
+      "b_to": 0.0,
+      "index": 40,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "21": {
+      "br_r": 0.0302,
+      "rate_a": 4.14,
+      "shift": 0.0,
+      "rate_b": 4.14,
+      "br_x": 0.0641,
+      "rate_c": 4.14,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        21
+      ],
+      "b_fr": 0.0062,
+      "f_bus": 5,
+      "br_status": 1,
+      "t_bus": 6,
+      "b_to": 0.0062,
+      "index": 21,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "38": {
+      "br_r": 0.165,
+      "rate_a": 0.97,
+      "shift": 0.0,
+      "rate_b": 0.97,
+      "br_x": 0.254,
+      "rate_c": 0.97,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        38
+      ],
+      "b_fr": 0.0,
+      "f_bus": 26,
+      "br_status": 1,
+      "t_bus": 27,
+      "b_to": 0.0,
+      "index": 38,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "46": {
+      "br_r": 0.0,
+      "rate_a": 0.31,
+      "shift": 0.0,
+      "rate_b": 0.31,
+      "br_x": 0.953,
+      "rate_c": 0.31,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        46
+      ],
+      "b_fr": 0.0,
+      "f_bus": 34,
+      "br_status": 1,
+      "t_bus": 32,
+      "b_to": 0.0,
+      "index": 46,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.975
+    },
+    "72": {
+      "br_r": 0.0624,
+      "rate_a": 2.12,
+      "shift": 0.0,
+      "rate_b": 2.12,
+      "br_x": 0.1242,
+      "rate_c": 2.12,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        72
+      ],
+      "b_fr": 0.002,
+      "f_bus": 44,
+      "br_status": 1,
+      "t_bus": 45,
+      "b_to": 0.002,
+      "index": 72,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "45": {
+      "br_r": 0.0392,
+      "rate_a": 5.52,
+      "shift": 0.0,
+      "rate_b": 5.52,
+      "br_x": 0.036,
+      "rate_c": 5.52,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        45
+      ],
+      "b_fr": 0.0,
+      "f_bus": 32,
+      "br_status": 1,
+      "t_bus": 33,
+      "b_to": 0.0,
+      "index": 45,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "68": {
+      "br_r": 0.0762,
+      "rate_a": 2.36,
+      "shift": 0.0,
+      "rate_b": 2.36,
+      "br_x": 0.0984,
+      "rate_c": 2.36,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        68
+      ],
+      "b_fr": 0.0,
+      "f_bus": 52,
+      "br_status": 1,
+      "t_bus": 53,
+      "b_to": 0.0,
+      "index": 68,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "56": {
+      "br_r": 0.0,
+      "rate_a": 0.72,
+      "shift": 0.0,
+      "rate_b": 0.72,
+      "br_x": 0.412,
+      "rate_c": 0.72,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        56
+      ],
+      "b_fr": 0.0,
+      "f_bus": 41,
+      "br_status": 1,
+      "t_bus": 43,
+      "b_to": 0.0,
+      "index": 56,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "36": {
+      "br_r": 0.0,
+      "rate_a": 0.24,
+      "shift": 0.0,
+      "rate_b": 0.24,
+      "br_x": 1.23,
+      "rate_c": 0.24,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        36
+      ],
+      "b_fr": 0.0,
+      "f_bus": 24,
+      "br_status": 1,
+      "t_bus": 25,
+      "b_to": 0.0,
+      "index": 36,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 1.0
+    },
+    "66": {
+      "br_r": 0.0,
+      "rate_a": 1.54,
+      "shift": 0.0,
+      "rate_b": 1.54,
+      "br_x": 0.191,
+      "rate_c": 1.54,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        66
+      ],
+      "b_fr": 0.0,
+      "f_bus": 13,
+      "br_status": 1,
+      "t_bus": 49,
+      "b_to": 0.0,
+      "index": 66,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.895
+    },
+    "76": {
+      "br_r": 0.0,
+      "rate_a": 0.22,
+      "shift": 0.0,
+      "rate_b": 0.22,
+      "br_x": 1.355,
+      "rate_c": 0.22,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        76
+      ],
+      "b_fr": 0.0,
+      "f_bus": 39,
+      "br_status": 1,
+      "t_bus": 57,
+      "b_to": 0.0,
+      "index": 76,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": true,
+      "tap": 0.98
+    },
+    "48": {
+      "br_r": 0.043,
+      "rate_a": 4.27,
+      "shift": 0.0,
+      "rate_b": 4.27,
+      "br_x": 0.0537,
+      "rate_c": 4.27,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        48
+      ],
+      "b_fr": 0.0008,
+      "f_bus": 35,
+      "br_status": 1,
+      "t_bus": 36,
+      "b_to": 0.0008,
+      "index": 48,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "18": {
+      "br_r": 0.0162,
+      "rate_a": 5.3,
+      "shift": 0.0,
+      "rate_b": 5.3,
+      "br_x": 0.053,
+      "rate_c": 5.3,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        18
+      ],
+      "b_fr": 0.0272,
+      "f_bus": 3,
+      "br_status": 1,
+      "t_bus": 15,
+      "b_to": 0.0272,
+      "index": 18,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "30": {
+      "br_r": 0.283,
+      "rate_a": 0.57,
+      "shift": 0.0,
+      "rate_b": 0.57,
+      "br_x": 0.434,
+      "rate_c": 0.57,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        30
+      ],
+      "b_fr": 0.0,
+      "f_bus": 19,
+      "br_status": 1,
+      "t_bus": 20,
+      "b_to": 0.0,
+      "index": 30,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    },
+    "3": {
+      "br_r": 0.0112,
+      "rate_a": 7.67,
+      "shift": 0.0,
+      "rate_b": 7.67,
+      "br_x": 0.0366,
+      "rate_c": 7.67,
+      "g_to": 0.0,
+      "g_fr": 0.0,
+      "source_id": [
+        "branch",
+        3
+      ],
+      "b_fr": 0.019,
+      "f_bus": 3,
+      "br_status": 1,
+      "t_bus": 4,
+      "b_to": 0.019,
+      "index": 3,
+      "angmin": -0.5235987755982988,
+      "angmax": 0.5235987755982988,
+      "transformer": false,
+      "tap": 1.0
+    }
+  },
+  "storage": {},
+  "switch": {},
+  "baseMVA": 100.0,
+  "per_unit": true,
+  "shunt": {
+    "1": {
+      "source_id": [
+        "bus",
+        18
+      ],
+      "shunt_bus": 18,
+      "status": 1,
+      "gs": 0.0,
+      "bs": 0.1,
+      "index": 1
+    },
+    "2": {
+      "source_id": [
+        "bus",
+        25
+      ],
+      "shunt_bus": 25,
+      "status": 1,
+      "gs": 0.0,
+      "bs": 0.059000000000000004,
+      "index": 2
+    },
+    "3": {
+      "source_id": [
+        "bus",
+        53
+      ],
+      "shunt_bus": 53,
+      "status": 1,
+      "gs": 0.0,
+      "bs": 0.063,
+      "index": 3
+    }
+  },
+  "load": {
+    "24": {
+      "source_id": [
+        "bus",
+        31
+      ],
+      "load_bus": 31,
+      "status": 1,
+      "qd": 0.028999999999999998,
+      "pd": 0.057999999999999996,
+      "index": 24
+    },
+    "4": {
+      "source_id": [
+        "bus",
+        5
+      ],
+      "load_bus": 5,
+      "status": 1,
+      "qd": 0.04,
+      "pd": 0.13,
+      "index": 4
+    },
+    "1": {
+      "source_id": [
+        "bus",
+        1
+      ],
+      "load_bus": 1,
+      "status": 1,
+      "qd": 0.17,
+      "pd": 0.55,
+      "index": 1
+    },
+    "12": {
+      "source_id": [
+        "bus",
+        15
+      ],
+      "load_bus": 15,
+      "status": 1,
+      "qd": 0.05,
+      "pd": 0.22,
+      "index": 12
+    },
+    "29": {
+      "source_id": [
+        "bus",
+        41
+      ],
+      "load_bus": 41,
+      "status": 1,
+      "qd": 0.03,
+      "pd": 0.063,
+      "index": 29
+    },
+    "20": {
+      "source_id": [
+        "bus",
+        27
+      ],
+      "load_bus": 27,
+      "status": 1,
+      "qd": 0.005,
+      "pd": 0.09300000000000001,
+      "index": 20
+    },
+    "32": {
+      "source_id": [
+        "bus",
+        44
+      ],
+      "load_bus": 44,
+      "status": 1,
+      "qd": 0.018000000000000002,
+      "pd": 0.12,
+      "index": 32
+    },
+    "2": {
+      "source_id": [
+        "bus",
+        2
+      ],
+      "load_bus": 2,
+      "status": 1,
+      "qd": 0.88,
+      "pd": 0.03,
+      "index": 2
+    },
+    "6": {
+      "source_id": [
+        "bus",
+        8
+      ],
+      "load_bus": 8,
+      "status": 1,
+      "qd": 0.22,
+      "pd": 1.5,
+      "index": 6
+    },
+    "25": {
+      "source_id": [
+        "bus",
+        32
+      ],
+      "load_bus": 32,
+      "status": 1,
+      "qd": 0.008,
+      "pd": 0.016,
+      "index": 25
+    },
+    "23": {
+      "source_id": [
+        "bus",
+        30
+      ],
+      "load_bus": 30,
+      "status": 1,
+      "qd": 0.018000000000000002,
+      "pd": 0.036000000000000004,
+      "index": 23
+    },
+    "22": {
+      "source_id": [
+        "bus",
+        29
+      ],
+      "load_bus": 29,
+      "status": 1,
+      "qd": 0.026000000000000002,
+      "pd": 0.17,
+      "index": 22
+    },
+    "11": {
+      "source_id": [
+        "bus",
+        14
+      ],
+      "load_bus": 14,
+      "status": 1,
+      "qd": 0.053,
+      "pd": 0.105,
+      "index": 11
+    },
+    "35": {
+      "source_id": [
+        "bus",
+        50
+      ],
+      "load_bus": 50,
+      "status": 1,
+      "qd": 0.105,
+      "pd": 0.21,
+      "index": 35
+    },
+    "13": {
+      "source_id": [
+        "bus",
+        16
+      ],
+      "load_bus": 16,
+      "status": 1,
+      "qd": 0.03,
+      "pd": 0.43,
+      "index": 13
+    },
+    "41": {
+      "source_id": [
+        "bus",
+        56
+      ],
+      "load_bus": 56,
+      "status": 1,
+      "qd": 0.022000000000000002,
+      "pd": 0.076,
+      "index": 41
+    },
+    "5": {
+      "source_id": [
+        "bus",
+        6
+      ],
+      "load_bus": 6,
+      "status": 1,
+      "qd": 0.02,
+      "pd": 0.75,
+      "index": 5
+    },
+    "15": {
+      "source_id": [
+        "bus",
+        18
+      ],
+      "load_bus": 18,
+      "status": 1,
+      "qd": 0.098,
+      "pd": 0.272,
+      "index": 15
+    },
+    "27": {
+      "source_id": [
+        "bus",
+        35
+      ],
+      "load_bus": 35,
+      "status": 1,
+      "qd": 0.03,
+      "pd": 0.06,
+      "index": 27
+    },
+    "31": {
+      "source_id": [
+        "bus",
+        43
+      ],
+      "load_bus": 43,
+      "status": 1,
+      "qd": 0.01,
+      "pd": 0.02,
+      "index": 31
+    },
+    "33": {
+      "source_id": [
+        "bus",
+        47
+      ],
+      "load_bus": 47,
+      "status": 1,
+      "qd": 0.11599999999999999,
+      "pd": 0.297,
+      "index": 33
+    },
+    "28": {
+      "source_id": [
+        "bus",
+        38
+      ],
+      "load_bus": 38,
+      "status": 1,
+      "qd": 0.07,
+      "pd": 0.14,
+      "index": 28
+    },
+    "16": {
+      "source_id": [
+        "bus",
+        19
+      ],
+      "load_bus": 19,
+      "status": 1,
+      "qd": 0.006,
+      "pd": 0.033,
+      "index": 16
+    },
+    "42": {
+      "source_id": [
+        "bus",
+        57
+      ],
+      "load_bus": 57,
+      "status": 1,
+      "qd": 0.02,
+      "pd": 0.067,
+      "index": 42
+    },
+    "14": {
+      "source_id": [
+        "bus",
+        17
+      ],
+      "load_bus": 17,
+      "status": 1,
+      "qd": 0.08,
+      "pd": 0.42,
+      "index": 14
+    },
+    "39": {
+      "source_id": [
+        "bus",
+        54
+      ],
+      "load_bus": 54,
+      "status": 1,
+      "qd": 0.013999999999999999,
+      "pd": 0.040999999999999995,
+      "index": 39
+    },
+    "40": {
+      "source_id": [
+        "bus",
+        55
+      ],
+      "load_bus": 55,
+      "status": 1,
+      "qd": 0.034,
+      "pd": 0.068,
+      "index": 40
+    },
+    "21": {
+      "source_id": [
+        "bus",
+        28
+      ],
+      "load_bus": 28,
+      "status": 1,
+      "qd": 0.023,
+      "pd": 0.046,
+      "index": 21
+    },
+    "38": {
+      "source_id": [
+        "bus",
+        53
+      ],
+      "load_bus": 53,
+      "status": 1,
+      "qd": 0.1,
+      "pd": 0.2,
+      "index": 38
+    },
+    "7": {
+      "source_id": [
+        "bus",
+        9
+      ],
+      "load_bus": 9,
+      "status": 1,
+      "qd": 0.26,
+      "pd": 1.21,
+      "index": 7
+    },
+    "34": {
+      "source_id": [
+        "bus",
+        49
+      ],
+      "load_bus": 49,
+      "status": 1,
+      "qd": 0.085,
+      "pd": 0.18,
+      "index": 34
+    },
+    "8": {
+      "source_id": [
+        "bus",
+        10
+      ],
+      "load_bus": 10,
+      "status": 1,
+      "qd": 0.02,
+      "pd": 0.05,
+      "index": 8
+    },
+    "36": {
+      "source_id": [
+        "bus",
+        51
+      ],
+      "load_bus": 51,
+      "status": 1,
+      "qd": 0.053,
+      "pd": 0.18,
+      "index": 36
+    },
+    "26": {
+      "source_id": [
+        "bus",
+        33
+      ],
+      "load_bus": 33,
+      "status": 1,
+      "qd": 0.019,
+      "pd": 0.038,
+      "index": 26
+    },
+    "17": {
+      "source_id": [
+        "bus",
+        20
+      ],
+      "load_bus": 20,
+      "status": 1,
+      "qd": 0.01,
+      "pd": 0.023,
+      "index": 17
+    },
+    "10": {
+      "source_id": [
+        "bus",
+        13
+      ],
+      "load_bus": 13,
+      "status": 1,
+      "qd": 0.023,
+      "pd": 0.18,
+      "index": 10
+    },
+    "19": {
+      "source_id": [
+        "bus",
+        25
+      ],
+      "load_bus": 25,
+      "status": 1,
+      "qd": 0.032,
+      "pd": 0.063,
+      "index": 19
+    },
+    "37": {
+      "source_id": [
+        "bus",
+        52
+      ],
+      "load_bus": 52,
+      "status": 1,
+      "qd": 0.022000000000000002,
+      "pd": 0.049,
+      "index": 37
+    },
+    "9": {
+      "source_id": [
+        "bus",
+        12
+      ],
+      "load_bus": 12,
+      "status": 1,
+      "qd": 0.24,
+      "pd": 3.77,
+      "index": 9
+    },
+    "18": {
+      "source_id": [
+        "bus",
+        23
+      ],
+      "load_bus": 23,
+      "status": 1,
+      "qd": 0.021,
+      "pd": 0.063,
+      "index": 18
+    },
+    "30": {
+      "source_id": [
+        "bus",
+        42
+      ],
+      "load_bus": 42,
+      "status": 1,
+      "qd": 0.044000000000000004,
+      "pd": 0.071,
+      "index": 30
+    },
+    "3": {
+      "source_id": [
+        "bus",
+        3
+      ],
+      "load_bus": 3,
+      "status": 1,
+      "qd": 0.21,
+      "pd": 0.41,
+      "index": 3
+    }
+  }
+}
